@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejercicio 2 - Información detallada de archivos y directorios",
+            "request": "launch",
+            "mainClass": "ejercicio2",
+            "args": "${command:SpecifyProgramArgs}"
+        }
+    ]
+}
