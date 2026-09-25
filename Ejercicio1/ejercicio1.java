@@ -16,9 +16,12 @@ public class ejercicio1 {
         }
 
         //Información
+        // File actual = new File(".");
+        // File padre = actual.getAbsoluteFile().getParentFile();
+
         System.out.println("ruta absoluta: " + ruta.getAbsolutePath());
         System.out.println("Nombre: " + ruta.getName());
-        System.out.println("Ruta padre: " + ruta.getParent());
+        System.out.println("Ruta padre: " + ruta.getParentFile());
         System.out.println("es directorio: " + ruta.isDirectory());
         System.out.println("es archivo: " + ruta.isFile());
 
